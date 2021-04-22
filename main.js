@@ -176,7 +176,7 @@ scene("main", () => {
 
         let angle = Math.atan2(diffX, diffY)
 
-        if (chance(0.95)) {
+        if (chance(0.98)) {
             let emacsId
             if (get("emacs").length === 0) {
                 emacsIdCounter = 0
